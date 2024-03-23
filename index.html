@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BLOG</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg border-bottom border-body bg-black"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid font">
+        <a class="navbar-brand text-light" href="index.html"
+          >kieran liner<span class="blink_me">_</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light font" href="#about-me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light font" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container vh-100">
+      <div class="container h-100 d-flex">
+        <div class="row align-self-center justify-content-center h-50">
+          <div class="col-12 col-md-8 col-sm-8 align-self-center text-end">
+            <h2 class="sub-heading">
+              Hello, im Kieran (keer-ren) i'm a freelancing web-developer based
+              in austin.
+            </h2>
+          </div>
+          <div class="col-12 col-md-4 col-sm-4 hero-img"></div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me Section -->
+    <section id="about-me">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col">
+            <h2 class="sub-heading">about me</h2>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-4 px-1 col-sm-4">
+            <div class="image-4 rounded"></div>
+          </div>
+          <div class="col-8 col-sm-8 text-start">
+            <h2 class="sub-heading">about me</h2>
+            <p class="font">
+              My software-development journey began as a teenager, I use to
+              stumble into my older brother’s room out of boredom during covid
+              and would be presented with him alot of the time in a IDE
+              (intergrated development environment). Having lot’s of free time
+              on my hands, I picked up a couple of classes on Udemy related to
+              web-development. From then on, I’ve enjoyed the challenge of
+              learning new principles and applying them to build projects.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-8 col-md-8 col-sm-8 pt-5 text-end">
+            <p class="font">
+              My pastimes include skating, rock-climbing and running. I enjoy
+              waking up early in the morning and going for run's in the city to
+              start my day's off. When I was 16, I decided to pick up on
+              bouldering. From there, I’ve been obsessed with the sport and got
+              all my on-wall certifications early-on, skating has also been a
+              huge part of my life as-well. From the young age of three,
+              throwing myself down a set of stair’s seemed to do well for me and
+              I’ve been doing it ever since!
+            </p>
+          </div>
+          <div class="col-4 col-md-4 col-sm-4 image-2 rounded"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-5">
+            <h2 class="sub-heading">Need a developer?</h2>
+            <div class="font">
+              im always open to new endeavor's and idea's, otherwise if you have
+              a question about something and would like to contact me, feel free
+              to!
+            </div>
+            <button type="button" class="btn btn-dark mt-4">
+              <a
+                href="mailto:keiranliner@gmail.com"
+                class="text-light text-decoration-none font"
+                >lets talk</a
+              >
+            </button>
+          </div>
+          <div class="col-12 mt-3">
+            <a href="https://www.instagram.com/kieran.ee/"
+              ><i class="fa-brands fa-instagram m-3" style="color: #ffffff"></i
+            ></a>
+            <a href="https://github.com/kieranliner"
+              ><i class="fa-brands fa-github m-3" style="color: #ffffff"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://kit.fontawesome.com/7e5d94e8a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
