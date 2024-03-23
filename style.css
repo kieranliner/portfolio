@@ -38,6 +38,10 @@ section {
   margin-bottom: 3rem;
 }
 
+#hero {
+  min-height: 80vh;
+}
+
 /* hero container */
 .hero-container {
   display: flex;
@@ -54,6 +58,7 @@ section {
 }
 /* hero image */
 .hero-img {
+  min-height: 20rem;
   border-radius: 2%;
   background-size: cover;
   background-position: center;
