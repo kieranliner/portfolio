@@ -11,9 +11,18 @@
 body {
   background-color: #000000 !important;
   /* background-color: black !important; */
-  font-weight: 600;
+  /* font-weight: 600; */
   color: white;
   text-align: center !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 23px;
 }
 
 div {
@@ -23,6 +32,7 @@ div {
 section {
   margin-bottom: 10rem;
 }
+
 .font {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -39,7 +49,14 @@ section {
 }
 
 #hero {
-  min-height: 80vh;
+  /* min-height: 90vh; */
+  margin-top: 10rem;
+}
+
+.column-image {
+  min-height: 20rem;
+  height: 100%;
+  margin-bottom: 2rem;
 }
 
 /* hero container */
@@ -88,6 +105,16 @@ section {
 .image-4 {
   background-image: url("assets/candlyland.jpeg");
   background-size: cover;
-  background-position: center;
-  height: 400px;
+  background-position: top center;
+  /* height: 400px; */
+}
+
+.subtitle {
+  /* color: #e52628; */
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
 }
