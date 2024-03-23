@@ -1,2 +1,3 @@
 # portfolio
- my website.
+
+my website that showcases all my work.
