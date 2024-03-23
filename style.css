@@ -49,8 +49,9 @@ section {
 }
 
 #hero {
-  /* min-height: 90vh; */
-  margin-top: 10rem;
+  min-height: 95vh;
+  margin: 0;
+  /* margin-top: 10rem; */
 }
 
 .column-image {
