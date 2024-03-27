@@ -119,3 +119,9 @@ section {
   margin-bottom: 1.5rem;
   line-height: 1.25;
 }
+.sub-heading-footer {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}

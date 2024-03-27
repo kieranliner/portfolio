@@ -1,18 +1,18 @@
-// console.log("hey")
-// $(function(){
-//     console.log("hello")
-//     var str = '#len'; //increment by 1 up to 1-nelemnts
-//     $(document).ready(function(){
-//       var i, stop;
-//       i = 1;
-//       stop = 4; //num elements
-//       setInterval(function(){
-//         if (i > stop){
-//           return;
-//         }
-//         $('#len'+(i++)).toggleClass('bounce');
-//       }, 500)
-//     });
-//   });
-console.log("hey");
-ScrollReveal().reveal(".navbar-brand");
+const npmPackage = require("typewriter-effect");
+const app = document.getElementById("app");
+const typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(2500)
+  .typeString("A simple yet powerful native javascript")
+  .pauseFor(300)
+  .deleteChars(10)
+  .typeString("<strong>JS</strong> plugin for a cool typewriter effect and ")
+  .typeString(
+    '<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>'
+  )
+  .pauseFor(1000)
+  .start();
