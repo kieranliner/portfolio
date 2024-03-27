@@ -1,4 +1,3 @@
-const npmPackage = require("typewriter-effect");
 const app = document.getElementById("app");
 const typewriter = new Typewriter(app, {
   loop: true,
@@ -6,13 +5,13 @@ const typewriter = new Typewriter(app, {
 });
 
 typewriter
+  .pauseFor(500)
+  .typeString("software developer")
   .pauseFor(2500)
-  .typeString("A simple yet powerful native javascript")
-  .pauseFor(300)
-  .deleteChars(10)
-  .typeString("<strong>JS</strong> plugin for a cool typewriter effect and ")
-  .typeString(
-    '<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>'
-  )
-  .pauseFor(1000)
+  .deleteAll()
+  .typeString("stoic")
+  .deleteAll()
+  .pauseFor(2500)
+  .typeString("ux/ui designer")
+  .pauseFor(2500)
   .start();
