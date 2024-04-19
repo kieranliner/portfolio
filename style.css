@@ -1,5 +1,6 @@
 .blink_me {
   animation: blinker 1.5s linear infinite;
+  margin-left: -10px; /* this compensates the spacing between the cursor and the content before */
 }
 
 @keyframes blinker {
@@ -9,10 +10,10 @@
 }
 
 body {
-  background-color: #000000 !important;
+  background-color: #101415 !important;
   /* background-color: black !important; */
   /* font-weight: 600; */
-  color: white;
+  color: #ececec;
   text-align: center !important;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -56,20 +57,7 @@ section {
   margin-right: 2rem;
 }
 
-/* hero container */
-.hero-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-}
-/* hero text */
-.hero-text {
-  margin-left: 8px;
-  padding: 75px;
-  font-size: 45px;
-}
+
 /* hero image */
 .hero-img {
   min-height: 20rem;
@@ -79,26 +67,6 @@ section {
   background-image: url("assets/hero.jpeg");
 }
 
-.image-1 {
-  background-image: url("assets/hp.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-
-.image-2 {
-  background-image: url("assets/climbing.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-
-.image-3 {
-  background-image: url("assets/outdoors.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
 .image-4 {
   background-image: url("assets/candlyland-2.jpeg");
   background-size: cover;
@@ -127,4 +95,7 @@ section {
     height: 20rem;
     margin-bottom: 2rem;
   }
+}
+.navbar-bg-color{
+  background-color: #101415 !important;
 }
