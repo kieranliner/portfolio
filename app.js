@@ -1,14 +1,10 @@
 const titleElement = document.getElementById("title");
 const typewriter = new Typewriter(titleElement, {
   loop: false,
-  cursor: '',
+  cursor: "",
 });
 
-typewriter
-.pauseFor(350)
-.typeString("kieran j. liner")
-.start();
-  
+typewriter.pauseFor(350).typeString("kieran j. liner").start();
 
 const revealDelay = 50;
 ScrollReveal().reveal(".about-img", {
@@ -31,31 +27,37 @@ ScrollReveal().reveal(".about-heading", {
 });
 
 ScrollReveal().reveal(".footer-heading", {
-    delay: revealDelay,
+  delay: revealDelay,
   distance: "500px",
   origin: "top",
 });
 
 ScrollReveal().reveal(".footer-text", {
-    delay: revealDelay,
+  delay: revealDelay,
   distance: "500px",
   origin: "top",
 });
 
 ScrollReveal().reveal(".footer-button", {
-    ddelay: revealDelay,
+  ddelay: revealDelay,
   distance: "250px",
   origin: "top",
 });
 
 ScrollReveal().reveal(".footer-icon-1", {
-    delay: revealDelay,
+  delay: revealDelay,
   distance: "250px",
   origin: "bottom",
 });
 
 ScrollReveal().reveal(".footer-icon-2", {
-    delay: revealDelay,
+  delay: revealDelay,
   distance: "250px",
   origin: "bottom",
+});
+ScrollReveal().reveal(".main", {
+  delay: 1500,
+  // distance: "500px",
+  origin: "none",
+  easing: "ease-in",
 });
